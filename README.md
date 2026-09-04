@@ -237,4 +237,10 @@ Application Ready
 
 ---
 
+### How Terraform and Ansible Worked Together
+
+Terraform was used to **provision the required infrastructure**, such as creating the server and networking resources. After the infrastructure was created, Ansible was used to **configure the provisioned server** by installing required packages, creating the application user, and starting/configuring the web server.
+
+In this workflow, **Terraform handled infrastructure provisioning**, while **Ansible handled server configuration and application setup**. Together, they provided an automated and repeatable DevOps deployment process.
+
 
